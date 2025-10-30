@@ -1,0 +1,2 @@
+# VmNativePlugins
+VZM - VmNativePlugins
