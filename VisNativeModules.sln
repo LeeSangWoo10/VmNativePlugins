@@ -1,0 +1,146 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core processing", "core processing", "{94F86AAF-13D3-4E38-83FE-28CB36D95C72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{FC37FFE8-950A-4A71-ACE7-ED5F9F61DD11}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_meshextraction", "vismtv_meshextraction\vismtv_meshextraction.vcxproj", "{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_geometryanalyzer", "vismtv_geometryanalyzer\vismtv_geometryanalyzer.vcxproj", "{7C27DE4D-E656-42FD-885C-43A38B741F6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_modeling", "vismtv_modeling_vera\vismtv_modeling_vera.vcxproj", "{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_morphfilters", "vismtv_morphfilters\vismtv_morphfilters.vcxproj", "{A194EB86-BCF8-48D2-83C9-52143D508A3F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_inbuilt_rwfiles", "vismtv_inbuilt_rwfiles\vismtv_inbuilt_rwfiles.vcxproj", "{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_inbuilt_tfmapgenerator", "vismtv_inbuilt_tfmapgenerator\vismtv_inbuilt_tfmapgenerator.vcxproj", "{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_inbuilt_ptypeprocessing", "vismtv_inbuilt_ptypeprocessing\vismtv_inbuilt_ptypeprocessing.vcxproj", "{54E881A5-322F-4E78-BC10-714D463BD636}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_inbuilt_vtypeprocessing", "vismtv_inbuilt_vtypeprocessing\vismtv_inbuilt_vtypeprocessing.vcxproj", "{D4BE301E-2561-413D-8C00-595B7808B98D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splitbvhlib", "splitbvhlib\splitbvhlib.vcxproj", "{6B809FCE-D201-4930-BF23-60A6CA0E3089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugin modules", "plugin modules", "{1E2F1C98-2111-40D8-BDD6-218EA5AE9414}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vismtv_dxutwrapper", "vismtv_dxutwrapper\vismtv_dxutwrapper.vcxproj", "{C7687559-544B-4A58-8529-75BE087C34AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Debug|Win32.Build.0 = Debug|Win32
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Debug|x64.ActiveCfg = Debug|x64
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Debug|x64.Build.0 = Debug|x64
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Release|Win32.ActiveCfg = Release|Win32
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Release|Win32.Build.0 = Release|Win32
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Release|x64.ActiveCfg = Release|x64
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49}.Release|x64.Build.0 = Release|x64
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Debug|Win32.Build.0 = Debug|Win32
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Debug|x64.ActiveCfg = Debug|x64
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Debug|x64.Build.0 = Debug|x64
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Release|Win32.ActiveCfg = Release|Win32
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Release|Win32.Build.0 = Release|Win32
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Release|x64.ActiveCfg = Release|x64
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E}.Release|x64.Build.0 = Release|x64
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Debug|Win32.Build.0 = Debug|Win32
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Debug|x64.ActiveCfg = Debug|x64
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Debug|x64.Build.0 = Debug|x64
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Release|Win32.ActiveCfg = Release|Win32
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Release|Win32.Build.0 = Release|Win32
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Release|x64.ActiveCfg = Release|x64
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A}.Release|x64.Build.0 = Release|x64
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Debug|Win32.Build.0 = Debug|Win32
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Debug|x64.ActiveCfg = Debug|x64
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Debug|x64.Build.0 = Debug|x64
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Release|Win32.ActiveCfg = Release|Win32
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Release|Win32.Build.0 = Release|Win32
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Release|x64.ActiveCfg = Release|x64
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F}.Release|x64.Build.0 = Release|x64
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Debug|Win32.Build.0 = Debug|Win32
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Debug|x64.ActiveCfg = Debug|x64
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Debug|x64.Build.0 = Debug|x64
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Release|Win32.ActiveCfg = Release|Win32
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Release|Win32.Build.0 = Release|Win32
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Release|x64.ActiveCfg = Release|x64
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72}.Release|x64.Build.0 = Release|x64
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Debug|Win32.Build.0 = Debug|Win32
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Debug|x64.ActiveCfg = Debug|x64
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Debug|x64.Build.0 = Debug|x64
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Release|Win32.ActiveCfg = Release|Win32
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Release|Win32.Build.0 = Release|Win32
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Release|x64.ActiveCfg = Release|x64
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6}.Release|x64.Build.0 = Release|x64
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Debug|Win32.Build.0 = Debug|Win32
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Debug|x64.ActiveCfg = Debug|x64
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Debug|x64.Build.0 = Debug|x64
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Release|Win32.ActiveCfg = Release|Win32
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Release|Win32.Build.0 = Release|Win32
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Release|x64.ActiveCfg = Release|x64
+		{54E881A5-322F-4E78-BC10-714D463BD636}.Release|x64.Build.0 = Release|x64
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Debug|Win32.Build.0 = Debug|Win32
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Debug|x64.ActiveCfg = Debug|x64
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Debug|x64.Build.0 = Debug|x64
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Release|Win32.ActiveCfg = Release|Win32
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Release|Win32.Build.0 = Release|Win32
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Release|x64.ActiveCfg = Release|x64
+		{D4BE301E-2561-413D-8C00-595B7808B98D}.Release|x64.Build.0 = Release|x64
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Debug|Win32.Build.0 = Debug|Win32
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Debug|x64.ActiveCfg = Debug|x64
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Debug|x64.Build.0 = Debug|x64
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Release|Win32.ActiveCfg = Release|Win32
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Release|Win32.Build.0 = Release|Win32
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Release|x64.ActiveCfg = Release|x64
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089}.Release|x64.Build.0 = Release|x64
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Debug|Win32.Build.0 = Debug|Win32
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Debug|x64.ActiveCfg = Debug|x64
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Debug|x64.Build.0 = Debug|x64
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Release|Win32.ActiveCfg = Release|Win32
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Release|Win32.Build.0 = Release|Win32
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Release|x64.ActiveCfg = Release|x64
+		{C7687559-544B-4A58-8529-75BE087C34AB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11DBE43F-1FF0-412C-B2A2-D6C206F3AF49} = {94F86AAF-13D3-4E38-83FE-28CB36D95C72}
+		{7C27DE4D-E656-42FD-885C-43A38B741F6E} = {94F86AAF-13D3-4E38-83FE-28CB36D95C72}
+		{9A27D883-55B0-4DA4-8FF2-FA95515FCF5A} = {94F86AAF-13D3-4E38-83FE-28CB36D95C72}
+		{A194EB86-BCF8-48D2-83C9-52143D508A3F} = {94F86AAF-13D3-4E38-83FE-28CB36D95C72}
+		{B0E8B29C-BE1F-4248-8A0E-01767BBA9D72} = {1E2F1C98-2111-40D8-BDD6-218EA5AE9414}
+		{1E1F631A-1C87-4BAC-8C71-C40E0A7D45B6} = {1E2F1C98-2111-40D8-BDD6-218EA5AE9414}
+		{54E881A5-322F-4E78-BC10-714D463BD636} = {1E2F1C98-2111-40D8-BDD6-218EA5AE9414}
+		{D4BE301E-2561-413D-8C00-595B7808B98D} = {1E2F1C98-2111-40D8-BDD6-218EA5AE9414}
+		{6B809FCE-D201-4930-BF23-60A6CA0E3089} = {FC37FFE8-950A-4A71-ACE7-ED5F9F61DD11}
+		{C7687559-544B-4A58-8529-75BE087C34AB} = {94F86AAF-13D3-4E38-83FE-28CB36D95C72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFFB10CA-C218-4BF7-A3F7-FFB44EF4B697}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
